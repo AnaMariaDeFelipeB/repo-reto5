@@ -54,7 +54,7 @@ El tercer problema trata acerca de lo siguiente.
 ```pseudocode
 a = input("Ingrese caracter cualquiera: ")
 x = (ord(a[0]))
-if x== "1" or x== "2" or x== "3" or x== "4" or x== "5" or x== "6" or x== "7" or x== "8" or x== "9" or x== "0": 
+if x>=0 and x<=9:
     print("El carácter " + str(a) + " es un digito.")
 else: 
     print("El carácter " + str(a) + " no es un digito")
@@ -63,7 +63,7 @@ print(x)
 
 Muestra del desarrollo. 
 
-[![problema3.jpg](https://i.postimg.cc/rsGSfdL0/problema3.jpg)](https://postimg.cc/Wq3F31zT)
+[![problema3.jpg](https://i.postimg.cc/N0z7F9tm/problema3.jpg)](https://postimg.cc/d7GTS0LV) 
 
 ---
 
