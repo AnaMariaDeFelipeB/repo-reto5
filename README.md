@@ -12,7 +12,7 @@ Para resolver dicho problema, desarrolle el siguiente codigo en VScode.
 `Codigo para determinar si un número es una vocal en ASCCI.`
 
 ```pseudocode
-  n : int = int (input("Ingrese número entero "))
+  n : int = int (input("Ingrese número entero: "))
 if chr(n) =="a" or chr(n) =="A" or chr(n) =="E" or chr(n) =="e" or chr(n) =="i" or chr(n) =="I" or chr(n) =="o" or chr(n) =="O" or chr(n) =="u" or chr(n) =="U":
     print ("El número " + str(n) + " en ASCCI es una vocal. " +  "Es la vocal " + chr(n))
 print(chr(n))
@@ -65,7 +65,7 @@ Por otro lado, encontramos el cuarto problema.
 
 `Codigo para determinar si un número x real es positivo, negativo o cero.` 
 ```pseudocode
-  n: float = float(input("Inserte número real "))
+  n: float = float(input("Inserte número real: "))
 if n > 0: 
     print("El número " + str(n)+ " es un número positivo.")
 elif n == 0: 
