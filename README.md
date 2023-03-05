@@ -52,10 +52,18 @@ El tercer problema trata acerca de lo siguiente.
 
 `Codigo para determinar si un carácter es un dígito o no.` 
 ```pseudocode
-  
+a = input("Ingrese caracter cualquiera: ")
+x = (ord(a[0]))
+if x== "1" or x== "2" or x== "3" or x== "4" or x== "5" or x== "6" or x== "7" or x== "8" or x== "9" or x== "0": 
+    print("El carácter " + str(a) + " es un digito.")
+else: 
+    print("El carácter " + str(a) + " no es un digito")
+print(x)
 ```
 
 Muestra del desarrollo. 
+
+[![problema3.jpg](https://i.postimg.cc/rsGSfdL0/problema3.jpg)](https://postimg.cc/Wq3F31zT)
 
 ---
 
@@ -82,7 +90,7 @@ Muestra del desarrollo.
 
 El penúltimo problema es el siguiente, 
 
-3. **Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.**
+5. **Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.**
 
 `Codigo para determinar si un punto R**2 pertenece al interior del circulo.`
 
