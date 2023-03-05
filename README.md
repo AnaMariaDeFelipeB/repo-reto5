@@ -94,13 +94,24 @@ El penúltimo problema es el siguiente,
 
 `Codigo para determinar si un punto R**2 pertenece al interior del circulo.`
 
-```pseudocode
-  
+```
+  radio:float=(input("Ingrese valor del radio: "))
+x: float =(input("Ingrese coordenada en x del centro del circulo: "))
+y : float =(input("Ingrese coordenada en y del centro del circulo: "))
+a: float = (input("Ingrese coordenada x del punto: "))
+b: float = (input("Ingrese coordenada y del punto:  "))
+
+distancia: float = ((((a - x)**2) + ((b - y)**2))**0.5)
+
+if distancia<radio: 
+    print("La coordenada " + "(" + str(a) + "," + str(b) + ")" + " se encuentra dentro del circulo con centro en " + "(" + str(x) + "," + str(y) + ")" " y un radio de " + str(radio))
+else: 
+    print(print("La coordenada " + "(" + str(a) + "," + str(b) + ")" + " se encuentra afuera del circulo con centro en " + "(" + str(x) + "," + str(y) + ")" " y un radio de " + str(radio)))
 ```
 
-Aquí se puede evidenciar el funcionamiento del codigo. 
+()
 
-LINK
+[![Problema5.jpg](https://i.postimg.cc/5tQDSkJR/Problema5.jpg)](https://postimg.cc/Y4kXpRh6)
 
 ---
 
