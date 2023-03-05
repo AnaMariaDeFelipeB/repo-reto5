@@ -25,8 +25,37 @@ Muestra del desarrollo.
 
 Ahora bien, el segundo problema planteado es el siguiente.
 
----
+2. **Dada una cadena de longitud 1, determine si el código ASCII de primera letra de la cadena es par o no.**
 
+`Codigo para determinar si el código ASCII de primera letra de la cadena es par o no.` 
+
+```pseudocode
+s = input("Ingrese una palabra cualquiera: ")
+x = (ord(s[0]))
+z = x%2
+if z==0: 
+    print("La primer letra de la cadena en ASCCI es un número par. ")
+else: 
+    print("La primer letra de la cadena en ASCCI es un número impar. ")
+print(x)
+```
+
+Evidencia del desarrollo. 
+
+[![problema2.jpg](https://i.postimg.cc/qRfMgNVF/problema2.jpg)](https://postimg.cc/bGTjBNv0)
+---
+El tercer problema trata acerca de lo siguiente. 
+
+3. **Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.**
+
+`Codigo para determinar si un carácter es un dígito o no.` 
+```pseudocode
+  
+```
+
+Muestra del desarrollo. 
+
+---
 Por otro lado, encontramos el cuarto problema. 
 
 4. **Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero.**
