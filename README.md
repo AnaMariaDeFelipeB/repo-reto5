@@ -43,7 +43,9 @@ print(x)
 Evidencia del desarrollo. 
 
 [![problema2.jpg](https://i.postimg.cc/qRfMgNVF/problema2.jpg)](https://postimg.cc/bGTjBNv0)
+
 ---
+
 El tercer problema trata acerca de lo siguiente. 
 
 3. **Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.**
@@ -56,6 +58,7 @@ El tercer problema trata acerca de lo siguiente.
 Muestra del desarrollo. 
 
 ---
+
 Por otro lado, encontramos el cuarto problema. 
 
 4. **Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero.**
@@ -74,7 +77,25 @@ elif n<0:
 Muestra del desarrollo. 
 
 [![Problema4.jpg](https://i.postimg.cc/2ypbBQ1p/Problema4.jpg)](https://postimg.cc/0Mf2TJGZ)
+
 ---
+
+El penúltimo problema es el siguiente, 
+
+3. **Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.**
+
+`Codigo para determinar si un punto R**2 pertenece al interior del circulo.`
+
+```pseudocode
+  
+```
+
+Aquí se puede evidenciar el funcionamiento del codigo. 
+
+LINK
+
+---
+
 Finalmente, llegamos al último problema que consiste en lo siguiente. 
 
 6. **Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.**
@@ -96,4 +117,6 @@ Evidencia del desarrollo:
 
 [![Problema6.jpg](https://i.postimg.cc/mgGrNZZ9/Problema6.jpg)](https://postimg.cc/QH0sj3TN)
 
-Esto fue todo por el momento. Byee.
+---
+
+### Esto fue todo por el momento. Byee.
