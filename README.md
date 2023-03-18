@@ -153,5 +153,4 @@ Evidencia del desarrollo:
 [![Problema6.jpg](https://i.postimg.cc/mgGrNZZ9/Problema6.jpg)](https://postimg.cc/QH0sj3TN)
 
 ---
-
-### Esto fue todo por el momento. Byee.
+Muchas gracias. Esto fue todo por el momento. 
