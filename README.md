@@ -108,11 +108,15 @@ El penúltimo problema es el siguiente,
 `Codigo para determinar si un punto R**2 pertenece al interior del circulo.`
 
 ```Python
-radio:float=(input("Ingrese valor del radio: "))
-x: float =(input("Ingrese coordenada en x del centro del circulo: "))
-y: float =(input("Ingrese coordenada en y del centro del circulo: "))
-a: float = (input("Ingrese coordenada x del punto: "))
-b: float = (input("Ingrese coordenada y del punto:  "))
+radio: float =float(input("Ingrese valor del radio: "))
+x: float
+x= float(input("Ingrese coordenada en x del centro del circulo: "))
+y: float 
+y= float(input("Ingrese coordenada en y del centro del circulo: "))
+a: float 
+a= float(input("Ingrese coordenada x del punto: "))
+b: float 
+b= float(input("Ingrese coordenada y del punto:  "))
 
 operación1: float = a-x
 operación2: float = operación1 **2 
@@ -120,7 +124,8 @@ operación3: float = b-y
 operación4: float = operación3**2 
 operación5: float = operación2 + operación4
 operación6: float = operación5**5
-resultado: float == operación6
+resultado: float 
+resultado = operación6
 
 if resultado<radio: 
     print("La coordenada " + "(" + str(a) + "," + str(b) + ")" + " se encuentra dentro del circulo con centro en " + "(" + str(x) + "," + str(y) + ")" " y un radio de " + str(radio))
